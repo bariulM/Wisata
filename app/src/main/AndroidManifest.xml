@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bariul.wisata">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Wisata">
+        <activity android:name="com.bariul.wisata.About"></activity>
+        <activity android:name="com.bariul.wisata.Kampoong" />
+        <activity android:name="com.bariul.wisata.Pondok" />
+        <activity android:name="com.bariul.wisata.Vihara" />
+        <activity android:name="com.bariul.wisata.Gereja" />
+        <activity android:name="com.bariul.wisata.Masjid" />
+        <activity android:name="com.bariul.wisata.WisataReligi" />
+        <activity android:name="com.bariul.wisata.WisataKuliner" />
+        <activity android:name="com.bariul.wisata.Pustaka" />
+        <activity android:name="com.bariul.wisata.KebunBinatang" />
+        <activity android:name="com.bariul.wisata.Museum" />
+        <activity android:name="com.bariul.wisata.WisataEdukasi" />
+        <activity android:name="com.bariul.wisata.RiauFantasi" />
+        <activity android:name="com.bariul.wisata.Okura" />
+        <activity android:name="com.bariul.wisata.HutanRaya" />
+        <activity android:name="com.bariul.wisata.AlamMayang" />
+        <activity android:name="com.bariul.wisata.AirTerjun" />
+        <activity android:name="com.bariul.wisata.WisataAlam" />
+        <activity android:name="com.bariul.wisata.Danau" />
+        <activity android:name="com.bariul.wisata.Alam" />
+        <activity android:name="com.bariul.wisata.MenuUtama" />
+        <activity android:name="com.bariul.wisata.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
